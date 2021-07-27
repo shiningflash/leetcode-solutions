@@ -6,10 +6,12 @@ Status: Accepted
 
 Runtime: 640 ms
 Memory Usage: 14.4 MB
+
+Problem link: https://leetcode.com/problems/3sum-closes
 """
 
 class Solution:
-    
+
     def getClosest(self, val1: int, val2: int, x: int):
         if x - val1 >= val2 - x:
             return val2, val2-x
