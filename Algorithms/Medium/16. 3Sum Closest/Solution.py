@@ -9,6 +9,7 @@ Memory Usage: 14.4 MB
 """
 
 class Solution:
+    
     def getClosest(self, val1: int, val2: int, x: int):
         if x - val1 >= val2 - x:
             return val2, val2-x
