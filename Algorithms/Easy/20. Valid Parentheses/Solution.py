@@ -18,8 +18,7 @@ class Solution:
                 stack.append(c)
                 continue
                 
-            if not stack:
-                return False
+            if not stack: return False
             
             pop = stack.pop()
             if pop == '(' and c == ')':
