@@ -21,8 +21,8 @@ class Solution:
             if rem == 0:
                 ans.append(arr)
                 return
-            for i in range(start, len(candidates)):
-                backtrack(i, rem - candidates[i], arr + [candidates[i]])
+            for pos in range(start, len(candidates)):
+                backtrack(pos, rem - candidates[pos], arr + [candidates[pos]])
         
         backtrack(0, target)
         return ans
