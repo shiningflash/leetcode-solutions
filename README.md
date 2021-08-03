@@ -4,10 +4,10 @@ What Is [LeetCode](https://leetcode.com)? It's a website where people–mostly s
 
 I'll update my all solutions here very soon. So, stay tuned!
 
-To check out my all other online judge solutions, ex. [codeforces](https://codeforces.com), [codechef](https://www.codechef.com/), [lightoj](https://lightoj.com/), [hackerrank](hackerrank.com), [spoj](https://www.spoj.com/), please, check out [this repository](https://github.com/shiningflash/Online-Judge-Solutions).
+To check out my all other online judge solutions, ex. [codeforces](https://codeforces.com/profile/shining_flash), [codechef](https://www.codechef.com/users/shiningflash_), [lightoj](https://lightoj.com/), [hackerrank](https://www.hackerrank.com/shiningflash), [spoj](https://www.spoj.com/users/amirul_bracu), please, check out [this repository](https://github.com/shiningflash/Online-Judge-Solutions).
 
 To follow my competitive programming resources, [follow this repository](https://github.com/shiningflash/Competitive-Programming-Resources). Hope this will help you a lot.
 
 ## Contributing
 
-If you want to contribute, please, contact me.
+If you want to contribute, please, contact me `amirulislamalmamun@gmail.com`.
