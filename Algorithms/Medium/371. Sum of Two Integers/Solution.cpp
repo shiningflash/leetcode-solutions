@@ -1,8 +1,6 @@
 /*
 Approach: AND, XOR
 
-
-
 13 / 13 test cases passed.
 Status: Accepted
 
