@@ -1,8 +1,6 @@
 """
 Approach: bitwise approach
 
-
-
 10 / 10 test cases passed.
 Status: Accepted
 
