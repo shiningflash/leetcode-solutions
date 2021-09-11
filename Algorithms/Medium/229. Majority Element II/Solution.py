@@ -1,19 +1,20 @@
 """
 Approach: Dictionary (map)
 
-47 / 47 test cases passed.
+82 / 82 test cases passed.
 Status: Accepted
 
-Runtime: 168 ms
-Memory Usage: 15.4 MB
+Runtime: 149 ms
+Memory Usage: 15.5 MB
 
-Problem link: https://leetcode.com/problems/majority-element/
+Problem link: https://leetcode.com/problems/majority-element-ii/
 """
 
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums: List[int]) -> List[int]:
         count = {}
-        n = len(nums) // 2
+        n = len(nums) // 3
+        ans = []
         
         for x in nums:
             try:
@@ -23,7 +24,7 @@ class Solution:
                 
         for key in count:
             if count[key] > n:
-                return key
+                ans.append(key)
         
-        return -1
+        return ans
         
