@@ -13,18 +13,23 @@ Problem link: https://leetcode.com/problems/valid-parentheses
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        mp = {
-            ")" : "(",
-            "}" : "{",
-            "]" : "["
+        map_paren = {
+            ")": "(",
+            "}": "{",
+            "]": "["
         }
         
         stack = []
-        for c in s:
-            if c in mp:
-                if not stack: return False
+        for bracket in s:
+            if bracket in map_paren: # if closing bracket
+                # if stack empty, nothing to pop, so return False
+                if not stack:
+                    return False
                 top = stack.pop()
-                if mp[c] != top: return False
+                if map_paren[bracket] != top:
+                    return False
             else:
-                stack.append(c)
+                # for opening bracket, just append
+                stack.append(bracket)
+        # stack empty means valid parenthesis, otherwise not
         return not stack
