@@ -1,5 +1,5 @@
 class Solution:
-    def binarySearchLowerBound(self, matrix: List[List[int]], target: int) -> int:
+    def lower_bound(self, matrix: List[List[int]], target: int) -> int:
         low = 0
         high = len(matrix) - 1
         while low <= high:
@@ -12,7 +12,7 @@ class Solution:
                 return mid
         return low
     
-    def binarySearch(self, matrix: List[List[int]], target: int, row: int) -> int:
+    def binary_search(self, matrix: List[List[int]], target: int, row: int) -> int:
         if row >= len(matrix):
             return False
         
@@ -29,7 +29,5 @@ class Solution:
         return False
         
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        row = self.binarySearchLowerBound(matrix, target)
-        return self.binarySearch(matrix, target, row)
-        
-        
+        row = self.lower_bound(matrix, target)
+        return self.binary_search(matrix, target, row)
